@@ -106,4 +106,16 @@ p {
     .recipe-box {
         width: 100%;
     }
+
+    h1, h2 {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
 }
