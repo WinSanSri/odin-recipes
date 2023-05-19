@@ -61,6 +61,47 @@ a:hover {
     text-decoration: underline;
 }
 
+.recipe-page-wrapper {
+    margin: 20px auto;
+    width: 80%;
+    text-align: left;
+}
+
+.recipe-page-wrapper img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.recipe-page-wrapper h1, .recipe-page-wrapper h2 {
+    padding: 5px 0;
+}
+
+.recipe-page-box {
+    background-color: antiquewhite;
+    padding: 20px;
+    border: solid 1px rgb(206, 171, 126);
+    border-radius: 3px;
+}
+
+ul, ol {
+    padding: 10px 0;
+}
+
+li {
+    padding: 5px 0;
+    margin: 0 10px;
+}
+
+p {
+    padding: 10px 0;
+}
+
+.spacer {
+    margin: 20px 0;
+}
+
+
 @media only screen and (max-width: 768px) {
     .recipe-box {
         width: 100%;
