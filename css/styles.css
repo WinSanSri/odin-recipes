@@ -1,23 +1,32 @@
+:root {
+    --main-bg-color: #ffffff;
+    --main-font-color: rgb(163, 73, 0);
+    --hd-font-color: rgb(163, 73, 0);
+    --box-bg-color: antiquewhite;
+    --box-border-color: rgb(206, 171, 126);
+    --footer-bg-color: rgb(255, 251, 247);
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(163, 73, 0);
+    color: var(--main-font-color);
+    background-color: var(--main-bg-color);
     font-size: 1rem;
     margin: 0;
 }
 
 h1, h2 {
-    color: rgb(163, 73, 0);
+    color: var(--hd-font-color);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .wrapper {
     width: 80%;
     padding: 20px;
-    /* background-color: antiquewhite; */
     margin: 20px auto;
 }
 
@@ -33,9 +42,9 @@ h1, h2 {
 }
 
 .recipe-box {
-    background-color: antiquewhite;
+    background-color: var(--box-bg-color);
     padding: 20px;
-    border: solid 1px rgb(206, 171, 126);
+    border: solid 1px var(--box-border-color);
     border-radius: 3px;
     text-align: center;
     width: 33%;
@@ -52,7 +61,7 @@ h1, h2 {
 
 a {
     text-decoration: none;
-    color: rgb(163, 73, 0);
+    color: var(--main-font-color);
 }
 
 a:hover {
@@ -73,15 +82,15 @@ a:hover {
 }
 
 .recipe-page-box {
-    background-color: antiquewhite;
+    background-color: var(--box-bg-color);
     padding: 20px;
-    border: solid 1px rgb(206, 171, 126);
+    border: solid 1px var(--box-border-color);
     border-radius: 3px;
 }
 
 footer {
     text-align: center;
-    background-color: rgb(255, 251, 247);
+    background-color: var(--footer-bg-color);
     padding: 20px;
     font-size: 0.9rem;
 }
