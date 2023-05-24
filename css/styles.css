@@ -47,7 +47,7 @@ h1, h2 {
     border: solid 1px var(--box-border-color);
     border-radius: 3px;
     text-align: center;
-    width: 33%;
+    flex: 1;
     min-width: 300px;
     max-width: 400px
 }
@@ -108,9 +108,9 @@ li {
 
 
 @media only screen and (max-width: 768px) {
-    .recipe-box {
+    /* .recipe-box {
         width: 100%;
-    }
+    } */
 
     h1, h2 {
         text-align: center;
